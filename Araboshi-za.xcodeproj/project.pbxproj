@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C89AE6A127275F0700A930E3 /* Club Sun shine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE69F27275F0700A930E3 /* Club Sun shine.swift */; };
+		C89AE6A227275F0700A930E3 /* 7th Heaven.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE6A027275F0700A930E3 /* 7th Heaven.swift */; };
 		C8BEF5F92726B17600F894A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BEF5F82726B17600F894A3 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		C89AE6372726CF3200A930E3 /* Sotenbori.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sotenbori.xcodeproj; path = Sotenbori/Sotenbori.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C89AE69F27275F0700A930E3 /* Club Sun shine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Club Sun shine.swift"; path = "../../test/Sources/Club Sun shine.swift"; sourceTree = "<group>"; };
+		C89AE6A027275F0700A930E3 /* 7th Heaven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "7th Heaven.swift"; path = "../../test/Sources/7th Heaven.swift"; sourceTree = "<group>"; };
 		C8BEF5F52726B17600F894A3 /* Araboshi-za */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Araboshi-za"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BEF5F82726B17600F894A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C8BEF6012726B1A600F894A3 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test; path = ../../test; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				C89AE6372726CF3200A930E3 /* Sotenbori.xcodeproj */,
 				C8BEF6012726B1A600F894A3 /* test */,
 				C8BEF5F82726B17600F894A3 /* main.swift */,
+				C89AE6A027275F0700A930E3 /* 7th Heaven.swift */,
+				C89AE69F27275F0700A930E3 /* Club Sun shine.swift */,
 			);
 			path = "Araboshi-za";
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89AE6A127275F0700A930E3 /* Club Sun shine.swift in Sources */,
+				C89AE6A227275F0700A930E3 /* 7th Heaven.swift in Sources */,
 				C8BEF5F92726B17600F894A3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
