@@ -54,6 +54,10 @@
 		C89AE69A2727427500A930E3 /* CoreVideo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C89AE6542727423D00A930E3 /* CoreVideo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C89AE69B2727427600A930E3 /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89AE6522727423D00A930E3 /* CoreWLAN.framework */; };
 		C89AE69C2727427600A930E3 /* CoreWLAN.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C89AE6522727423D00A930E3 /* CoreWLAN.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C89AE6A627275F6800A930E3 /* Club Sun shine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE6A427275F6800A930E3 /* Club Sun shine.swift */; };
+		C89AE6A727275F6800A930E3 /* Club Sun shine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE6A427275F6800A930E3 /* Club Sun shine.swift */; };
+		C89AE6A827275F6800A930E3 /* 7th Heaven.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE6A527275F6800A930E3 /* 7th Heaven.swift */; };
+		C89AE6A927275F6800A930E3 /* 7th Heaven.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE6A527275F6800A930E3 /* 7th Heaven.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +134,8 @@
 		C89AE6592727423D00A930E3 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		C89AE65A2727423D00A930E3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		C89AE65B2727423D00A930E3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C89AE6A427275F6800A930E3 /* Club Sun shine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Club Sun shine.swift"; sourceTree = "<group>"; };
+		C89AE6A527275F6800A930E3 /* 7th Heaven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "7th Heaven.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +182,8 @@
 		C89AE6132726CF3100A930E3 = {
 			isa = PBXGroup;
 			children = (
+				C89AE6A527275F6800A930E3 /* 7th Heaven.swift */,
+				C89AE6A427275F6800A930E3 /* Club Sun shine.swift */,
 				C89AE61F2726CF3100A930E3 /* Sotenbori */,
 				C89AE62A2726CF3200A930E3 /* SotenboriTests */,
 				C89AE61E2726CF3100A930E3 /* Products */,
@@ -348,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89AE6A627275F6800A930E3 /* Club Sun shine.swift in Sources */,
+				C89AE6A827275F6800A930E3 /* 7th Heaven.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +365,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89AE6A727275F6800A930E3 /* Club Sun shine.swift in Sources */,
+				C89AE6A927275F6800A930E3 /* 7th Heaven.swift in Sources */,
 				C89AE62C2726CF3200A930E3 /* SotenboriTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +554,7 @@
 		C89AE6352726CF3200A930E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -560,6 +573,7 @@
 		C89AE6362726CF3200A930E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
