@@ -3,12 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C8BEF5F92726B17600F894A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BEF5F82726B17600F894A3 /* main.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C89AE63C2726CF3300A930E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C89AE6372726CF3200A930E3 /* Sotenbori.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C89AE61D2726CF3100A930E3;
+			remoteInfo = Sotenbori;
+		};
+		C89AE63E2726CF3300A930E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C89AE6372726CF3200A930E3 /* Sotenbori.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C89AE6262726CF3200A930E3;
+			remoteInfo = SotenboriTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C8BEF5F32726B17600F894A3 /* CopyFiles */ = {
@@ -23,8 +40,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C89AE6372726CF3200A930E3 /* Sotenbori.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sotenbori.xcodeproj; path = Sotenbori/Sotenbori.xcodeproj; sourceTree = SOURCE_ROOT; };
 		C8BEF5F52726B17600F894A3 /* Araboshi-za */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Araboshi-za"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BEF5F82726B17600F894A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C8BEF6012726B1A600F894A3 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test; path = ../../test; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C89AE6382726CF3200A930E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C89AE63D2726CF3300A930E3 /* Sotenbori.framework */,
+				C89AE63F2726CF3300A930E3 /* SotenboriTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C8BEF5EC2726B17500F894A3 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +85,8 @@
 		C8BEF5F72726B17600F894A3 /* Araboshi-za */ = {
 			isa = PBXGroup;
 			children = (
+				C89AE6372726CF3200A930E3 /* Sotenbori.xcodeproj */,
+				C8BEF6012726B1A600F894A3 /* test */,
 				C8BEF5F82726B17600F894A3 /* main.swift */,
 			);
 			path = "Araboshi-za";
@@ -97,7 +127,7 @@
 				};
 			};
 			buildConfigurationList = C8BEF5F02726B17600F894A3 /* Build configuration list for PBXProject "Araboshi-za" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,12 +137,35 @@
 			mainGroup = C8BEF5EC2726B17500F894A3;
 			productRefGroup = C8BEF5F62726B17600F894A3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C89AE6382726CF3200A930E3 /* Products */;
+					ProjectRef = C89AE6372726CF3200A930E3 /* Sotenbori.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C8BEF5F42726B17600F894A3 /* Araboshi-za */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C89AE63D2726CF3300A930E3 /* Sotenbori.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Sotenbori.framework;
+			remoteRef = C89AE63C2726CF3300A930E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C89AE63F2726CF3300A930E3 /* SotenboriTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SotenboriTests.xctest;
+			remoteRef = C89AE63E2726CF3300A930E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C8BEF5F12726B17600F894A3 /* Sources */ = {
@@ -236,8 +289,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -245,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -254,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
