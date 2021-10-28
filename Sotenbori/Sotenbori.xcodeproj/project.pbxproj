@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C88D5C1727295E9C004ECCC1 /* Cherry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D5C1627295E9C004ECCC1 /* Cherry.swift */; };
+		C88D5C1827295E9C004ECCC1 /* Cherry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D5C1627295E9C004ECCC1 /* Cherry.swift */; };
 		C89AE6272726CF3200A930E3 /* Sotenbori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89AE61D2726CF3100A930E3 /* Sotenbori.framework */; };
 		C89AE62C2726CF3200A930E3 /* SotenboriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE62B2726CF3200A930E3 /* SotenboriTests.swift */; };
 		C89AE62E2726CF3200A930E3 /* Sotenbori.h in Headers */ = {isa = PBXBuildFile; fileRef = C89AE6202726CF3100A930E3 /* Sotenbori.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -106,6 +108,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C88D5C1627295E9C004ECCC1 /* Cherry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cherry.swift; sourceTree = "<group>"; };
 		C89AE61D2726CF3100A930E3 /* Sotenbori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sotenbori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89AE6202726CF3100A930E3 /* Sotenbori.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sotenbori.h; sourceTree = "<group>"; };
 		C89AE6212726CF3100A930E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -183,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				C89AE6A527275F6800A930E3 /* 7th Heaven.swift */,
+				C88D5C1627295E9C004ECCC1 /* Cherry.swift */,
 				C89AE6A427275F6800A930E3 /* Club Sun shine.swift */,
 				C89AE61F2726CF3100A930E3 /* Sotenbori */,
 				C89AE62A2726CF3200A930E3 /* SotenboriTests */,
@@ -358,6 +362,7 @@
 			files = (
 				C89AE6A627275F6800A930E3 /* Club Sun shine.swift in Sources */,
 				C89AE6A827275F6800A930E3 /* 7th Heaven.swift in Sources */,
+				C88D5C1727295E9C004ECCC1 /* Cherry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88D5C1827295E9C004ECCC1 /* Cherry.swift in Sources */,
 				C89AE6A727275F6800A930E3 /* Club Sun shine.swift in Sources */,
 				C89AE6A927275F6800A930E3 /* 7th Heaven.swift in Sources */,
 				C89AE62C2726CF3200A930E3 /* SotenboriTests.swift in Sources */,
