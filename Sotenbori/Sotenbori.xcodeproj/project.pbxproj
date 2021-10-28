@@ -60,6 +60,8 @@
 		C89AE6A727275F6800A930E3 /* Club Sun shine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE6A427275F6800A930E3 /* Club Sun shine.swift */; };
 		C89AE6A827275F6800A930E3 /* 7th Heaven.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE6A527275F6800A930E3 /* 7th Heaven.swift */; };
 		C89AE6A927275F6800A930E3 /* 7th Heaven.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89AE6A527275F6800A930E3 /* 7th Heaven.swift */; };
+		C8BDAF27272B2A36008FFA00 /* HoloLens Cool Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDAF26272B2A36008FFA00 /* HoloLens Cool Side.swift */; };
+		C8BDAF28272B2A36008FFA00 /* HoloLens Cool Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDAF26272B2A36008FFA00 /* HoloLens Cool Side.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +141,7 @@
 		C89AE65B2727423D00A930E3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C89AE6A427275F6800A930E3 /* Club Sun shine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Club Sun shine.swift"; sourceTree = "<group>"; };
 		C89AE6A527275F6800A930E3 /* 7th Heaven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "7th Heaven.swift"; sourceTree = "<group>"; };
+		C8BDAF26272B2A36008FFA00 /* HoloLens Cool Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoloLens Cool Side.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				C89AE6A527275F6800A930E3 /* 7th Heaven.swift */,
+				C8BDAF26272B2A36008FFA00 /* HoloLens Cool Side.swift */,
 				C88D5C1627295E9C004ECCC1 /* Cherry.swift */,
 				C89AE6A427275F6800A930E3 /* Club Sun shine.swift */,
 				C89AE61F2726CF3100A930E3 /* Sotenbori */,
@@ -361,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C89AE6A627275F6800A930E3 /* Club Sun shine.swift in Sources */,
+				C8BDAF27272B2A36008FFA00 /* HoloLens Cool Side.swift in Sources */,
 				C89AE6A827275F6800A930E3 /* 7th Heaven.swift in Sources */,
 				C88D5C1727295E9C004ECCC1 /* Cherry.swift in Sources */,
 			);
@@ -370,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BDAF28272B2A36008FFA00 /* HoloLens Cool Side.swift in Sources */,
 				C88D5C1827295E9C004ECCC1 /* Cherry.swift in Sources */,
 				C89AE6A727275F6800A930E3 /* Club Sun shine.swift in Sources */,
 				C89AE6A927275F6800A930E3 /* 7th Heaven.swift in Sources */,
