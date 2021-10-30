@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C877FE65272CD6B9000CB49D /* Host Identification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877FE64272CD6B9000CB49D /* Host Identification.swift */; };
 		C877FE66272CD6B9000CB49D /* Host Identification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877FE64272CD6B9000CB49D /* Host Identification.swift */; };
+		C877FE69272CDA0D000CB49D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C877FE68272CD9F2000CB49D /* libsqlite3.tbd */; };
+		C877FE74272CDC8A000CB49D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C877FE73272CDC8A000CB49D /* ViewController.m */; };
+		C877FE75272CDC8A000CB49D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C877FE73272CDC8A000CB49D /* ViewController.m */; };
 		C88D5C1727295E9C004ECCC1 /* Cherry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D5C1627295E9C004ECCC1 /* Cherry.swift */; };
 		C88D5C1827295E9C004ECCC1 /* Cherry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D5C1627295E9C004ECCC1 /* Cherry.swift */; };
 		C89AE6272726CF3200A930E3 /* Sotenbori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89AE61D2726CF3100A930E3 /* Sotenbori.framework */; };
@@ -113,6 +116,11 @@
 
 /* Begin PBXFileReference section */
 		C877FE64272CD6B9000CB49D /* Host Identification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Host Identification.swift"; sourceTree = "<group>"; };
+		C877FE68272CD9F2000CB49D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C877FE70272CDB04000CB49D /* SQLite Evidence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLite Evidence.h"; sourceTree = "<group>"; };
+		C877FE71272CDBB2000CB49D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C877FE72272CDC89000CB49D /* SotenboriTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SotenboriTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		C877FE73272CDC8A000CB49D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C88D5C1627295E9C004ECCC1 /* Cherry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cherry.swift; sourceTree = "<group>"; };
 		C89AE61D2726CF3100A930E3 /* Sotenbori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sotenbori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89AE6202726CF3100A930E3 /* Sotenbori.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sotenbori.h; sourceTree = "<group>"; };
@@ -168,6 +176,7 @@
 				C89AE6752727426300A930E3 /* Carbon.framework in Frameworks */,
 				C89AE68D2727427500A930E3 /* CoreMedia.framework in Frameworks */,
 				C89AE6972727427500A930E3 /* CoreTelephony.framework in Frameworks */,
+				C877FE69272CDA0D000CB49D /* libsqlite3.tbd in Frameworks */,
 				C89AE6772727426600A930E3 /* CFNetwork.framework in Frameworks */,
 				C89AE67B2727426B00A930E3 /* Cocoa.framework in Frameworks */,
 				C89AE6892727427500A930E3 /* CoreGraphics.framework in Frameworks */,
@@ -191,6 +200,9 @@
 		C89AE6132726CF3100A930E3 = {
 			isa = PBXGroup;
 			children = (
+				C877FE70272CDB04000CB49D /* SQLite Evidence.h */,
+				C877FE71272CDBB2000CB49D /* ViewController.h */,
+				C877FE73272CDC8A000CB49D /* ViewController.m */,
 				C877FE64272CD6B9000CB49D /* Host Identification.swift */,
 				C89AE6A527275F6800A930E3 /* 7th Heaven.swift */,
 				C8BDAF26272B2A36008FFA00 /* HoloLens Cool Side.swift */,
@@ -200,6 +212,7 @@
 				C89AE62A2726CF3200A930E3 /* SotenboriTests */,
 				C89AE61E2726CF3100A930E3 /* Products */,
 				C89AE643272741F300A930E3 /* Frameworks */,
+				C877FE72272CDC89000CB49D /* SotenboriTests-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,6 +246,7 @@
 		C89AE643272741F300A930E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C877FE68272CD9F2000CB49D /* libsqlite3.tbd */,
 				C89AE64E2727423D00A930E3 /* Carbon.framework */,
 				C89AE64C2727423D00A930E3 /* CFNetwork.framework */,
 				C89AE6582727423D00A930E3 /* CloudKit.framework */,
@@ -321,9 +335,11 @@
 				TargetAttributes = {
 					C89AE61C2726CF3100A930E3 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					C89AE6252726CF3200A930E3 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -368,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C877FE74272CDC8A000CB49D /* ViewController.m in Sources */,
 				C89AE6A627275F6800A930E3 /* Club Sun shine.swift in Sources */,
 				C877FE65272CD6B9000CB49D /* Host Identification.swift in Sources */,
 				C8BDAF27272B2A36008FFA00 /* HoloLens Cool Side.swift in Sources */,
@@ -380,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C877FE75272CDC8A000CB49D /* ViewController.m in Sources */,
 				C877FE66272CD6B9000CB49D /* Host Identification.swift in Sources */,
 				C8BDAF28272B2A36008FFA00 /* HoloLens Cool Side.swift in Sources */,
 				C88D5C1827295E9C004ECCC1 /* Cherry.swift in Sources */,
@@ -524,6 +542,7 @@
 		C89AE6322726CF3200A930E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -541,6 +560,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = andresbarbudorodriguez.Sotenbori;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -548,6 +568,7 @@
 		C89AE6332726CF3200A930E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -573,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -584,6 +606,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = andresbarbudorodriguez.SotenboriTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SotenboriTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -592,6 +616,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -603,6 +628,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = andresbarbudorodriguez.SotenboriTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SotenboriTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
